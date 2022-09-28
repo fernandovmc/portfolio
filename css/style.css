@@ -61,7 +61,7 @@ a:hover {
 }
 
 .container{
-    margin-top: 8%;
+    margin-top: 10%;
     position: relative;
     display: flex;
     justify-content: center;
@@ -74,4 +74,39 @@ a:hover {
 
 .left h1 {
     font-size: 4rem;
+}
+
+@media only screen and (max-width:550px) {
+
+    body {
+        width: 100%;
+ 
+    }
+
+    .navbar {
+        position: absolute;
+        display: block;
+    }
+
+    .navbar a {
+        position: relative;
+        display: grid;
+        font-size: 3rem;
+    }
+
+    .container {
+        margin-top: 8rem;
+        padding-top: 5rem;
+        position: absolute;
+        display: block;
+    }
+
+    h1 {
+        font-size: .5rem;
+    }
+    
+    #logo {
+        margin-top: 5rem;
+        width: 400px;
+    }
 }
