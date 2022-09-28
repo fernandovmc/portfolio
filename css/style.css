@@ -75,33 +75,3 @@ a:hover {
 .left h1 {
     font-size: 4rem;
 }
-
-@media only screen and (max-width:550px) {
-
-    .navbar {
-        position: absolute;
-        display: block;
-    }
-
-    .navbar a {
-        position: relative;
-        display: grid;
-        font-size: 3rem;
-    }
-
-    .container {
-        margin-top: 10rem;
-        padding-top: 5rem;
-        position: absolute;
-        display: block;
-    }
-
-    .container h1 {
-        font-size: 3rem;
-    }
-    
-    #logo {
-        margin-top: 5rem;
-        width: 400px;
-    }
-}
