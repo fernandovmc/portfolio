@@ -78,11 +78,6 @@ a:hover {
 
 @media only screen and (max-width:550px) {
 
-    body {
-        width: 100%;
- 
-    }
-
     .navbar {
         position: absolute;
         display: block;
@@ -95,14 +90,14 @@ a:hover {
     }
 
     .container {
-        margin-top: 8rem;
+        margin-top: 10rem;
         padding-top: 5rem;
         position: absolute;
         display: block;
     }
 
-    h1 {
-        font-size: .5rem;
+    .container h1 {
+        font-size: 3rem;
     }
     
     #logo {
